@@ -19,4 +19,3 @@ export default class Thread<Events> {
      */
     emit<Event extends keyof Events>(type: Event, cb: (data: any) => void, data: Events[Event], isAbort?: boolean): Worker;
 }
-//# sourceMappingURL=index.d.ts.map
