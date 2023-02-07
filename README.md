@@ -7,7 +7,7 @@ Thread 是为浏览器而设计的，但在任何支持 Worker api 的浏览器�
 ```javascript
 import Thread from 'Thread'
 
-const thread = new Thead()
+const thread = new Thread()
 
 // listen to an event
 thread.on('foo',e => console.log('foo',e))
